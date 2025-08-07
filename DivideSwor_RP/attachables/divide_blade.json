@@ -1,0 +1,76 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "starstore:divide_blade",
+      "materials": {
+        "default": "entity_alphatest",
+        "emissive": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/models/divide_blade/main",
+
+        "addon0": "textures/models/divide_blade/addon/0",
+        "addon1": "textures/models/divide_blade/addon/1",
+        "addon2": "textures/models/divide_blade/addon/2",
+        "addon3": "textures/models/divide_blade/addon/3",
+        "addon4": "textures/models/divide_blade/addon/4",
+        "addon5": "textures/models/divide_blade/addon/5",
+        "addon6": "textures/models/divide_blade/addon/6",
+        "addon7": "textures/models/divide_blade/addon/7",
+
+        "wings0": "textures/models/divide_blade/wings/0",
+        "wings1": "textures/models/divide_blade/wings/1",
+        "wings2": "textures/models/divide_blade/wings/2",
+        "wings3": "textures/models/divide_blade/wings/3",
+        "wings4": "textures/models/divide_blade/wings/4",
+        "wings5": "textures/models/divide_blade/wings/5",
+
+        "spark0": "textures/models/divide_blade/spark/0",
+        "spark1": "textures/models/divide_blade/spark/1",
+        "spark2": "textures/models/divide_blade/spark/2",
+        "spark3": "textures/models/divide_blade/spark/3",
+        "spark4": "textures/models/divide_blade/spark/4",
+        "spark5": "textures/models/divide_blade/spark/5",
+        "spark6": "textures/models/divide_blade/spark/6",
+        "spark7": "textures/models/divide_blade/spark/7",
+        "spark8": "textures/models/divide_blade/spark/8",
+        "spark9": "textures/models/divide_blade/spark/9",
+        "spark10": "textures/models/divide_blade/spark/10",
+        "spark11": "textures/models/divide_blade/spark/11",
+        "spark12": "textures/models/divide_blade/spark/12",
+        "spark13": "textures/models/divide_blade/spark/13",
+        "spark14": "textures/models/divide_blade/spark/14",
+        "spark15": "textures/models/divide_blade/spark/15",
+        "spark16": "textures/models/divide_blade/spark/16",
+        "spark17": "textures/models/divide_blade/spark/17",
+        "spark18": "textures/models/divide_blade/spark/18",
+        "spark19": "textures/models/divide_blade/spark/19",
+        "spark20": "textures/models/divide_blade/spark/20",
+        "spark21": "textures/models/divide_blade/spark/21",
+        "spark22": "textures/models/divide_blade/spark/22",
+        "spark23": "textures/models/divide_blade/spark/23",
+        "spark24": "textures/models/divide_blade/spark/24",
+        "spark25": "textures/models/divide_blade/spark/25",
+        "spark26": "textures/models/divide_blade/spark/26",
+        "spark27": "textures/models/divide_blade/spark/27",
+        "spark28": "textures/models/divide_blade/spark/28",
+        "spark29": "textures/models/divide_blade/spark/29",
+        "spark30": "textures/models/divide_blade/spark/30",
+        "spark31": "textures/models/divide_blade/spark/31"
+      },
+      "geometry": {
+        "default": "geometry.divide_blade.main",
+        "addon": "geometry.divide_blade.addon",
+        "wings": "geometry.divide_blade.wings",
+        "spark": "geometry.divide_blade.spark"
+      },
+      "render_controllers": [
+        "controller.render.divide_blade.main",
+        "controller.render.divide_blade.addon",
+        "controller.render.divide_blade.wings",
+        "controller.render.divide_blade.spark"
+      ]
+    }
+  }
+}

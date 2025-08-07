@@ -1,0 +1,1 @@
+clear @a[hasitem={item=starstore:divide_blade,location=slot.weapon.mainhand},name=!"JUSTmaris3160,Raphael4053"] starstore:divide_blade

@@ -1,0 +1,293 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "goji:wardenzilla": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.sculk_zilla.idle",
+          "hurt": "entity.sculk_zilla.hurt"
+        }
+      },
+      "gojidraw:sculk_nuke": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "minecraft:block.beacon.ambient",
+          "hurt": "kaiju.sculk_nuke_break",
+          "death": "kaiju.sculk_nuke_break"
+        }
+      },
+      "gojidraw:sculk_nuke_on": {
+        "volume": 100.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "hurt": {
+            "sound": "kaiju.sculk_nuke_break",
+          "death": "kaiju.sculk_nuke_break"
+          }
+        }
+      },
+      "gojidraw:mecha_wardenzilla": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.mecha_wardenzilla.idle",
+          "hurt": "random.anvil_land"
+        }
+      },
+      "gojidraw:mecha_wardenzilla_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.mecha_wardenzilla.idle",
+          "hurt": "random.anvil_land"
+        }
+      },
+      "goji:friendly_wardenzilla": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.sculk_zilla.idle",
+          "hurt": "entity.sculk_zilla.hurt"
+        }
+      },
+      "gojidraw:wardenzilla_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.sculk_zilla.idle",
+          "hurt": "entity.sculk_zilla.hurt"
+        }
+      },
+      "gojidraw:wither_ghidorah": {
+        "volume": 35.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.wither_ghidorah.idle",
+          "hurt": "entity.wither_ghidorah.hurt",
+          "death": "entity.wither_ghidorah.death"
+        }
+      },
+      "gojidraw:wither_ghidorah_c": {
+        "volume": 35.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.wither_ghidorah.idle",
+          "hurt": "entity.wither_ghidorah.hurt",
+          "death": "entity.wither_ghidorah.death"
+        }
+      },
+      "gojidraw:golem_kong": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.golem_kong.idle",
+          "death": "entity.golem_kong.dead",
+          "hurt": "entity.golem_kong.hurt"
+        }
+      },
+      "gojidraw:golem_kong_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.golem_kong.idle",
+          "death": "entity.golem_kong.dead",
+          "hurt": "entity.golem_kong.hurt"
+        }
+      },
+      "gojidraw:golem_kong_with_axe": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.golem_kong.idle",
+          "death": "entity.golem_kong.dead",
+          "hurt": "entity.golem_kong.hurt"
+        }
+      },
+      "gojidraw:golem_kong_with_axe_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.golem_kong.idle",
+          "death": "entity.golem_kong.dead",
+          "hurt": "entity.golem_kong.hurt"
+        }
+      },
+      "gojidraw:revive_golem_kong": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.golem_kong.idle",
+          "death": "entity.golem_kong.dead",
+          "hurt": "entity.golem_kong.hurt"
+        }
+      },
+      "gojidraw:behemoohoglin": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.behemoohoglin.idle",
+          "death": "entity.behemoohoglin.roar",
+          "hurt": "entity.behemoohoglin.hurt"
+        }
+      },
+      "gojidraw:behemoohoglin_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.behemoohoglin.idle",
+          "death": "entity.behemoohoglin.roar",
+          "hurt": "entity.behemoohoglin.hurt"
+        }
+      },
+      "gojidraw:sniffelah": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.sniffelah.idle",
+          "death": "entity.sniffelah.roar",
+          "hurt": "entity.sniffelah.hurt"
+        }
+      },
+      "gojidraw:sniffela_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.sniffelah.idle",
+          "death": "entity.sniffelah.roar",
+          "hurt": "entity.sniffelah.hurt"
+        }
+      },
+      "gojidraw:mothlley": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.mothlley.idle",
+          "death": "entity.mothlley.dead",
+          "hurt": "entity.mothlley.hurt"
+        }
+      },
+      "gojidraw:mothlley_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.mothlley.idle",
+          "death": "entity.mothlley.dead",
+          "hurt": "entity.mothlley.hurt"
+        }
+      },
+      "gojidraw:blazing_neakri": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.blazing_neakri.idle",
+          "death": "entity.blazing_neakri.roar",
+          "hurt": "entity.blazing_neakri.hurt"
+        }
+      },
+      "gojidraw:squcylla": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.squcylla.idle",
+          "death": "entity.squcylla.death",
+          "hurt": "entity.squcylla.hurt"
+        }
+      },
+      "gojidraw:squcylla_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.squcylla.idle",
+          "death": "entity.squcylla.death",
+          "hurt": "entity.squcylla.hurt"
+        }
+      },
+      "gojidraw:ender_muto_male": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.ender_muto.idle",
+          "death": "entity.ender_muto.roar",
+          "hurt": "entity.ender_muto.attack"
+        }
+      },
+      "gojidraw:ender_muto_female": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.ender_muto.idle",
+          "death": "entity.ender_muto.roar",
+          "hurt": "entity.ender_muto.attack"
+        }
+      },
+      "gojidraw:ender_muto_male_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.ender_muto.idle",
+          "death": "entity.ender_muto.roar",
+          "hurt": "entity.ender_muto.attack"
+        }
+      },
+      "gojidraw:ender_muto_female_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.ender_muto.idle",
+          "death": "entity.ender_muto.roar",
+          "hurt": "entity.ender_muto.attack"
+        }
+      },
+      "gojidraw:blazing_neakri_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.blazing_neakri.idle",
+          "death": "entity.blazing_neakri.roar",
+          "hurt": "entity.blazing_neakri.hurt"
+        }
+      },
+      "gojidraw:rophantom": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.rophantom.idle",
+          "death": "entity.rophantom.dead",
+          "hurt": "entity.rophantom.hurt"
+        }
+      },
+      "gojidraw:rophantom_c": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.rophantom.idle",
+          "death": "entity.rophantom.dead",
+          "hurt": "entity.rophantom.hurt"
+        }
+      },
+      "gojidraw:bone_crawler": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.bone_crawler.idle",
+          "hurt": "entity.bone_crawler.hurt",
+          "death": "entity.bone_crawler.death"
+        }
+      },
+      "gojidraw:rophantom_soul": {
+        "volume": 30.0,
+        "pitch": [ 1.0, 1.0  ],
+        "events": {
+          "ambient": "entity.rophantom.idle",
+          "death": "entity.rophantom.dead",
+          "hurt": "entity.rophantom.hurt"
+        }
+      }
+    }
+  }
+}

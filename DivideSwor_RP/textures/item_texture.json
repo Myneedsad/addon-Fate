@@ -1,0 +1,8 @@
+{
+  "resource_pack_name": "Divide Blade",
+  "texture_data": {
+    "divide_blade": {
+      "textures": "textures/items/divide_blade"
+    }
+  }
+}

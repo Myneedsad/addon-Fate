@@ -1,0 +1,89 @@
+{
+  "format_version": "1.12.0",
+  "render_controllers": {
+    "controller.render.divide_blade.main": {
+      "geometry": "geometry.default",
+      "materials": [{ "*": "material.default" }],
+      "textures": ["texture.default"]
+    },
+    "controller.render.divide_blade.wings": {
+      "arrays": {
+        "textures": {
+          "array.textures": [
+            "texture.wings0",
+            "texture.wings1",
+            "texture.wings2",
+            "texture.wings3",
+            "texture.wings4",
+            "texture.wings5"
+          ]
+        }
+      },
+      "geometry": "geometry.wings",
+      "materials": [{ "*": "material.default" }],
+      "textures": ["array.textures[query.life_time * 5]"]
+    },
+    "controller.render.divide_blade.spark": {
+      "arrays": {
+        "textures": {
+          "array.textures": [
+            "texture.spark0",
+            "texture.spark1",
+            "texture.spark2",
+            "texture.spark3",
+            "texture.spark4",
+            "texture.spark5",
+            "texture.spark6",
+            "texture.spark7",
+            "texture.spark8",
+            "texture.spark9",
+            "texture.spark10",
+            "texture.spark11",
+            "texture.spark12",
+            "texture.spark13",
+            "texture.spark14",
+            "texture.spark15",
+            "texture.spark16",
+            "texture.spark17",
+            "texture.spark18",
+            "texture.spark19",
+            "texture.spark20",
+            "texture.spark21",
+            "texture.spark22",
+            "texture.spark23",
+            "texture.spark24",
+            "texture.spark25",
+            "texture.spark26",
+            "texture.spark27",
+            "texture.spark28",
+            "texture.spark29",
+            "texture.spark30",
+            "texture.spark31"
+          ]
+        }
+      },
+      "geometry": "geometry.spark",
+      "materials": [{ "*": "material.emissive" }],
+      "textures": ["array.textures[query.life_time * 15]"]
+    },
+    "controller.render.divide_blade.addon": {
+      "arrays": {
+        "textures": {
+          "array.textures": [
+            "texture.addon0",
+            "texture.addon1",
+            "texture.addon2",
+            "texture.addon3",
+            "texture.addon4",
+            "texture.addon5",
+            "texture.addon6",
+            "texture.addon7"
+          ]
+        }
+      },
+      "geometry": "geometry.addon",
+      "materials": [{ "*": "material.default" }],
+      "textures": ["array.textures[query.life_time]"]
+    }
+  }
+}

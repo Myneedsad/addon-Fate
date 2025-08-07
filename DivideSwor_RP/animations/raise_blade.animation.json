@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.player.raise_blade": {
+      "loop": false,
+      "animation_length": 1.5,
+      "bones": {
+        "rightarm": {
+          "rotation": [
+            { "time": 0.0, "value": [0, 0, 0] },
+            { "time": 0.25, "value": [-80, 0, 0] },
+            { "time": 0.6, "value": [-45, 0, 0] },
+            { "time": 1.0, "value": [-20, 0, 0] },
+            { "time": 1.4, "value": [0, 0, 0] }
+          ]
+        }
+      }
+    }
+  }
+}

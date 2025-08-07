@@ -1,0 +1,790 @@
+{
+
+"kaiju.sculk_nuke_break": {
+    "category": "hostile",
+    "min_distance": 100,
+    "sounds": [
+      "sounds/mob/sculk_nuke_break"
+    ]
+  },
+"kaiju.sculk_nuke_place": {
+    "category": "hostile",
+    "min_distance": 100,
+    "sounds": [
+      "sounds/mob/sculk_nuke_place"
+    ]
+  },
+"kaiju.kaiju_controller_menu_click": {
+    "category": "hostile",
+    "min_distance": 100,
+    "sounds": [
+      "sounds/mob/menu_click/kaiju_controller"
+    ]
+  },
+"kaiju.nuke_counting_down": {
+    "category": "hostile",
+    "min_distance": 100,
+    "sounds": [
+      "sounds/mob/nuke_counting_down"
+    ]
+  },
+"kaiju.menu_click": {
+    "category": "hostile",
+    "min_distance": 10,
+    "sounds": [
+      "sounds/mob/menu_click/menu_click1",
+      "sounds/mob/menu_click/menu_click2",
+      "sounds/mob/menu_click/menu_click3",
+      "sounds/mob/menu_click/menu_click4",
+      "sounds/mob/menu_click/menu_click5",
+      "sounds/mob/menu_click/menu_click6"
+    ]
+  },
+"entity.titan.stomp": {
+    "category": "hostile",
+    "min_distance": 10.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/stomp"
+    ]
+  },
+"entity.titan.stomp2": {
+    "category": "hostile",
+    "min_distance": 10.0,
+    "sounds": [
+      "sounds/mob/golem_kong/stomp"
+    ]
+  },
+"entity.titan.stomp5": {
+    "category": "hostile",
+    "min_distance": 10.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/stomp"
+    ]
+  },
+"entity.titan.stomp6": {
+    "category": "hostile",
+    "min_distance": 10.0,
+    "sounds": [
+      "sounds/mob/bone_crawler/step"
+    ]
+  },
+"entity.titan.stomp3": {
+    "category": "hostile",
+    "min_distance": 40.0,
+    "sounds": [
+      "sounds/mob/sniffelah/stomp1",
+      "sounds/mob/sniffelah/stomp2",
+      "sounds/mob/sniffelah/stomp3"
+    ]
+  },
+"entity.titan.stomp4": {
+    "category": "hostile",
+    "min_distance": 40.0,
+    "sounds": [
+      "sounds/mob/squcylla/stomp1",
+      "sounds/mob/squcylla/stomp2",
+      "sounds/mob/squcylla/stomp3",
+      "sounds/mob/squcylla/stomp4"
+    ]
+  },
+"entity.titan.fall": {
+    "category": "hostile",
+    "min_distance": 50.0,
+    "sounds": [
+      "sounds/mob/fall"
+    ]
+  },
+"entity.titan.flap_wings": {
+    "category": "hostile",
+    "min_distance": 70.0,
+    "sounds": [
+      "sounds/mob/rophantom/flap_wings"
+    ]
+  },
+"entity.bone_crawler.idle": {
+    "category": "hostile",
+    "min_distance": 100.0,
+    "sounds": [
+      "sounds/mob/bone_crawler/idle1",
+      "sounds/mob/bone_crawler/idle2",
+      "sounds/mob/bone_crawler/idle3"
+    ]
+  },
+"entity.bone_crawler.hurt": {
+    "category": "hostile",
+    "min_distance": 150.0,
+    "sounds": [
+      "sounds/mob/bone_crawler/hurt1",
+      "sounds/mob/bone_crawler/hurt2",
+      "sounds/mob/bone_crawler/hurt3"
+    ]
+  },
+"entity.bone_crawler.awaken": {
+    "category": "hostile",
+    "min_distance": 100.0,
+    "sounds": [
+      "sounds/mob/bone_crawler/awaken"
+    ]
+  },
+"entity.bone_crawler.death": {
+    "category": "hostile",
+    "min_distance": 200.0,
+    "sounds": [
+      "sounds/mob/bone_crawler/death"
+    ]
+  },
+"entity.bone_crawler.bite": {
+    "category": "hostile",
+    "min_distance": 150.0,
+    "sounds": [
+      "sounds/mob/bone_crawler/bite1",
+      "sounds/mob/bone_crawler/bite2"
+    ]
+  },
+"entity.titan.flap_wings2": {
+    "category": "hostile",
+    "min_distance": 70.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/flap_wings"
+    ]
+  },
+ "entity.mecha_wardenzilla.roar": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/roar"
+    ]
+  },
+ "entity.mecha_wardenzilla.death": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/death"
+    ]
+  },
+ "entity.mecha_wardenzilla.awakening": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/awakening"
+    ]
+  },
+ "entity.mecha_wardenzilla.idle": {
+    "category": "hostile",
+    "min_distance": 350.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/idle1",
+      "sounds/mob/mecha_wardenzilla/idle2",
+      "sounds/mob/mecha_wardenzilla/idle3"
+    ]
+  },
+ "entity.mecha_wardenzilla.slam_attack": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/slam_attack"
+    ]
+  },
+ "entity.mecha_wardenzilla.leap": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/leap"
+    ]
+  },
+ "entity.mecha_wardenzilla.attack1": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/attack1"
+    ]
+  },
+ "entity.mecha_wardenzilla.firing_missile": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/firing_missiles1",
+      "sounds/mob/mecha_wardenzilla/firing_missiles2"
+    ]
+  },
+ "entity.mecha_wardenzilla.attack2": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/attack2"
+    ]
+  },
+ "entity.mecha_wardenzilla.photon_beam": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/photon_beam"
+    ]
+  },
+ "entity.mecha_wardenzilla.stomp_attack": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/stomp_attack"
+    ]
+  },
+ "entity.mecha_wardenzilla.bite": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/bite"
+    ]
+  },
+ "entity.mecha_wardenzilla.tail_swipe": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mecha_wardenzilla/tail_swipe"
+    ]
+  },
+"entity.ender_muto.idle": {
+    "category": "hostile",
+    "min_distance": 100.0,
+    "sounds": [
+      "sounds/mob/ender_muto/idle1",
+      "sounds/mob/ender_muto/idle2",
+      "sounds/mob/ender_muto/idle3"
+    ]
+  },
+"entity.ender_muto.roar": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/ender_muto/roar"
+    ]
+  },
+"entity.squcylla.idle": {
+    "category": "hostile",
+    "min_distance": 100.0,
+    "sounds": [
+      "sounds/mob/squcylla/idle1",
+      "sounds/mob/squcylla/idle2",
+      "sounds/mob/squcylla/idle3"
+    ]
+  },
+"entity.squcylla.attack": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/squcylla/attack1",
+      "sounds/mob/squcylla/attack2",
+      "sounds/mob/squcylla/attack3"
+    ]
+  },
+"entity.squcylla.death": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/squcylla/death"
+    ]
+  },
+"entity.ender_muto.emp_smash": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/ender_muto/emp_smash"
+    ]
+  },
+"entity.ender_muto.attack": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/ender_muto/attack1",
+      "sounds/mob/ender_muto/attack2",
+      "sounds/mob/ender_muto/attack3"
+    ]
+  },
+"entity.squcylla.roar": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/squcylla/roar"
+    ]
+  },
+"entity.squcylla.hurt": {
+    "category": "hostile",
+    "min_distance": 450.0,
+    "sounds": [
+      "sounds/mob/squcylla/hurt1",
+      "sounds/mob/squcylla/hurt2",
+      "sounds/mob/squcylla/hurt3"
+    ]
+  },
+"entity.wither_ghidorah.death": {
+    "category": "hostile",
+    "min_distance": 670.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/death_roar"
+    ]
+  },
+"entity.wither_ghidorah.warp": {
+    "category": "hostile",
+    "min_distance": 670.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/warp1",
+      "sounds/mob/wither_ghidorah/warp2"
+    ]
+  },
+"entity.wither_ghidorah.wing_attack": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/wing_attack"
+    ]
+  },
+"entity.wither_ghidorah.rib_attack": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/rib_attack"
+    ]
+  },
+ "entity.blazing_neakri.idle": {
+    "category": "hostile",
+    "min_distance": 450.0,
+    "sounds": [
+      "sounds/mob/blazing_neakri/idle1",
+      "sounds/mob/blazing_neakri/idle2",
+      "sounds/mob/blazing_neakri/idle3",
+      "sounds/mob/blazing_neakri/idle4"
+    ]
+  },
+ "entity.blazing_neakri.hurt": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/blazing_neakri/hurt1",
+      "sounds/mob/blazing_neakri/hurt2",
+      "sounds/mob/blazing_neakri/hurt3"
+    ]
+  },
+ "entity.blazing_neakri.roar": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/blazing_neakri/roar1",
+      "sounds/mob/blazing_neakri/roar2"
+    ]
+  },
+ "entity.blazing_neakri.attack1": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/blazing_neakri/attack1"
+    ]
+  },
+ "entity.blazing_neakri.attack2": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/blazing_neakri/attack2"
+    ]
+  },
+ "entity.blazing_neakri.attack3": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/blazing_neakri/attack3"
+    ]
+  },
+ "entity.mothlley.godray": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mothlley/godray"
+    ]
+  },
+ "entity.mothlley.laser": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/mothlley/laser"
+    ]
+  },
+ "entity.mothlley.hurt": {
+    "category": "hostile",
+    "min_distance": 450.0,
+    "sounds": [
+      "sounds/mob/mothlley/hurt1",
+      "sounds/mob/mothlley/hurt2"
+    ]
+  },
+ "entity.mothlley.idle": {
+    "category": "hostile",
+    "min_distance": 450.0,
+    "sounds": [
+      "sounds/mob/mothlley/idle1",
+      "sounds/mob/mothlley/idle2",
+      "sounds/mob/mothlley/idle3",
+      "sounds/mob/mothlley/idle4"
+    ]
+  },
+"entity.sniffelah.idle": {
+    "category": "hostile",
+    "min_distance": 20.0,
+    "sounds": [
+      "sounds/mob/sniffelah/idle1",
+      "sounds/mob/sniffelah/idle2",
+      "sounds/mob/sniffelah/idle3"
+    ]
+  },
+ "entity.sniffelah.awaken": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/sniffelah/awaken"
+    ]
+  },
+ "entity.sniffelah.roar": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/sniffelah/roar"
+    ]
+  },
+ "entity.sniffelah.bite_attack": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/sniffelah/bite_attack"
+    ]
+  },
+ "entity.sniffelah.slam_attack": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/sniffelah/slam_attack"
+    ]
+  },
+"entity.sniffelah.hurt": {
+    "category": "hostile",
+    "min_distance": 40.0,
+    "sounds": [
+      "sounds/mob/sniffelah/hurt1",
+      "sounds/mob/sniffelah/hurt2",
+      "sounds/mob/sniffelah/hurt3"
+    ]
+  },
+ "entity.mothlley.attack": {
+    "category": "hostile",
+    "min_distance": 450.0,
+    "sounds": [
+      "sounds/mob/mothlley/attack1",
+      "sounds/mob/mothlley/attack2",
+      "sounds/mob/mothlley/attack3"
+    ]
+  },
+ "entity.wither_ghidorah.idle": {
+    "category": "hostile",
+    "min_distance": 450.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/idle1",
+      "sounds/mob/wither_ghidorah/idle2",
+      "sounds/mob/wither_ghidorah/idle3",
+      "sounds/mob/wither_ghidorah/idle4"
+    ]
+  },
+ "entity.wither_ghidorah.bite_attack": {
+    "category": "hostile",
+    "min_distance": 450.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/bit"
+    ]
+  },
+   "entity.wither_ghidorah.idle": {
+    "category": "hostile",
+    "min_distance": 450.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/idle1",
+      "sounds/mob/wither_ghidorah/idle2",
+      "sounds/mob/wither_ghidorah/idle3",
+      "sounds/mob/wither_ghidorah/idle4"
+    ]
+  },
+ "entity.wither_ghidorah.lightnings": {
+    "category": "hostile",
+    "min_distance": 450.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/lightning1",
+      "sounds/mob/wither_ghidorah/lightning2",
+      "sounds/mob/wither_ghidorah/lightning3"
+    ]
+  },
+ "entity.wither_ghidorah.hurt": {
+    "category": "hostile",
+    "min_distance": 450.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/hurt1",
+      "sounds/mob/wither_ghidorah/hurt2",
+      "sounds/mob/wither_ghidorah/hurt3"
+    ]
+  },
+ "entity.wither_ghidorah.roar": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/roar"
+    ]
+  },
+ "entity.wither_ghidorah.boss_theme": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/boss_theme"
+    ]
+  },
+ "entity.wither_ghidorah.coming_out": {
+    "category": "hostile",
+    "min_distance": 650.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/coming_out"
+    ]
+  },
+ "entity.wither_ghidorah.wither_gravity_beam": {
+    "category": "hostile",
+    "min_distance": 250.0,
+    "sounds": [
+      "sounds/mob/wither_ghidorah/wither_gravity_beam"
+    ]
+  },
+ "entity.rophantom.idle": {
+    "category": "hostile",
+    "min_distance": 350.0,
+    "sounds": [
+      "sounds/mob/rophantom/idle1",
+      "sounds/mob/rophantom/idle2",
+      "sounds/mob/rophantom/idle3"
+    ]
+  },
+ "entity.behemoohoglin.idle": {
+    "category": "hostile",
+    "min_distance": 350.0,
+    "sounds": [
+      "sounds/mob/behemoohoglin/idle1",
+      "sounds/mob/behemoohoglin/idle2"
+    ]
+  },
+ "entity.behemoohoglin.roar": {
+    "category": "hostile",
+    "min_distance": 350.0,
+    "sounds": [
+      "sounds/mob/behemoohoglin/roar"
+    ]
+  },
+ "entity.behemoohoglin.hurt": {
+    "category": "hostile",
+    "min_distance": 350.0,
+    "sounds": [
+      "sounds/mob/behemoohoglin/hurt1",
+      "sounds/mob/behemoohoglin/hurt2",
+      "sounds/mob/behemoohoglin/hurt3"
+    ]
+  },
+ "entity.rophantom.slash": {
+    "category": "hostile",
+    "min_distance": 300.0,
+    "sounds": [
+      "sounds/mob/rophantom/slash"
+    ]
+  },
+ "entity.rophantom.flame": {
+    "category": "hostile",
+    "min_distance": 300.0,
+    "sounds": [
+      "sounds/mob/rophantom/flame"
+    ]
+  },
+ "entity.rophantom.hurt": {
+    "category": "hostile",
+    "min_distance": 350.0,
+    "sounds": [
+      "sounds/mob/rophantom/hurt1",
+      "sounds/mob/rophantom/hurt2"
+    ]
+  },
+ "entity.rophantom.attack": {
+    "category": "hostile",
+    "min_distance": 250.0,
+    "sounds": [
+      "sounds/mob/rophantom/attack"
+    ]
+  },
+"entity.rophantom.dead": {
+    "category": "hostile",
+    "min_distance": 300.0,
+    "sounds": [
+      "sounds/mob/rophantom/dead"
+    ]
+  },
+ "entity.golem_kong.attack": {
+    "category": "hostile",
+    "min_distance": 250.0,
+    "sounds": [
+      "sounds/mob/golem_kong/attack"
+    ]
+  },
+ "entity.golem_kong.roar": {
+    "category": "hostile",
+    "min_distance": 250.0,
+    "sounds": [
+      "sounds/mob/golem_kong/roar"
+    ]
+  },
+ "entity.golem_kong.axe_slam": {
+    "category": "hostile",
+    "min_distance": 250.0,
+    "sounds": [
+      "sounds/mob/golem_kong/axe_smash"
+    ]
+  },
+"entity.golem_kong.dead": {
+    "category": "hostile",
+    "min_distance": 300.0,
+    "sounds": [
+      "sounds/mob/golem_kong/dead"
+    ]
+  },
+ "entity.golem_kong.growl": {
+    "category": "hostile",
+    "min_distance": 250.0,
+    "sounds": [
+      "sounds/mob/golem_kong/growl"
+    ]
+  },
+ "entity.golem_kong.idle": {
+    "category": "hostile",
+    "min_distance": 350.0,
+    "sounds": [
+      "sounds/mob/golem_kong/idle1",
+      "sounds/mob/golem_kong/idle2",
+      "sounds/mob/golem_kong/idle3"
+    ]
+  },
+ "entity.golem_kong.hurt": {
+    "category": "hostile",
+    "min_distance": 350.0,
+    "sounds": [
+      "sounds/mob/golem_kong/hurt1",
+      "sounds/mob/golem_kong/hurt2"
+    ]
+  },
+ "entity.golem_kong.roar": {
+    "category": "hostile",
+    "min_distance": 350.0,
+    "sounds": [
+      "sounds/mob/golem_kong/roar"
+    ]
+  },
+ "entity.golem_kong.slam_attack": {
+    "category": "hostile",
+    "min_distance": 250.0,
+    "sounds": [
+      "sounds/mob/golem_kong/slam_attack"
+    ]
+  },
+ "entity.sculk_zilla.attack": {
+    "category": "hostile",
+    "min_distance": 250.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/attack1",
+      "sounds/mob/sculk_zilla/attack2"
+    ]
+  },
+  "entity.sculk_zilla.clicking": {
+    "category": "hostile",
+    "min_distance": 250.0,
+    "sounds": [
+          "sounds/mob/sculk_zilla/tendril_clicks1",
+      "sounds/mob/sculk_zilla/tendril_clicks2",
+      "sounds/mob/sculk_zilla/tendril_clicks3",
+      "sounds/mob/sculk_zilla/tendril_clicks4",
+      "sounds/mob/sculk_zilla/tendril_clicks5"
+    ]
+  },
+ "entity.sculk_zilla.bite": {
+    "category": "hostile",
+    "min_distance": 250.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/bite"
+    ]
+  },
+ "entity.sculk_zilla.stomp": {
+    "category": "hostile",
+    "min_distance": 100.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/stomp_attack"
+    ]
+  },
+ "entity.sculk_zilla.tail": {
+    "category": "hostile",
+    "min_distance": 60.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/tail_swipe"
+    ]
+  },
+ "entity.sculk_zilla.roar": {
+    "category": "hostile",
+    "min_distance": 80.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/roar"
+    ]
+  },
+ "entity.sculk_zilla.atomic_death": {
+    "category": "hostile",
+    "min_distance": 250.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/atomic_death"
+    ]
+  },
+ "entity.sculk_zilla.dead": {
+    "category": "hostile",
+    "min_distance": 300.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/dead"
+    ]
+  },
+ "entity.sculk_zilla.idle": {
+    "category": "hostile",
+    "min_distance": 350.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/grow_idle",
+      "sounds/mob/sculk_zilla/cry_idle"
+    ]
+  },
+  "entity.sculk_zilla.final_roar": {
+    "category": "hostile",
+    "min_distance": 500.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/final_roar"
+    ]
+  },
+  "entity.sculk_zilla.atomic": {
+    "category": "hostile",
+    "min_distance": 300.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/charging"
+    ]
+  },
+  "entity.sculk_zilla.nuke": {
+    "category": "hostile",
+    "min_distance": 500.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/wardenzilla_nuke"
+    ]
+  },
+  "entity.sculk_zilla.hurt": {
+    "category": "hostile",
+    "min_distance": 500.0,
+    "sounds": [
+      "sounds/mob/sculk_zilla/hurt1",
+      "sounds/mob/sculk_zilla/hurt2",
+      "sounds/mob/sculk_zilla/hurt3",
+      "sounds/mob/sculk_zilla/hurt4"
+    ]
+  }
+}

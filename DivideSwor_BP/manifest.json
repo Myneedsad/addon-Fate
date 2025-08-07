@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Divide Sword",
+    "description": "ผลงาน MY P",
+    "uuid": "182d8f24-e111-4024-bdda-2c996ef9f92d",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 60]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "870cde77-cdfa-422a-9382-a30ba751ec62",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "uuid": "aaddb67e-8c1c-4b17-a92f-70347f04f791",
+      "version": [1, 0, 0],
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.18.0"
+    },
+    {
+      "uuid": "0c7ff215-3b49-495b-bce2-18d00596559d",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["MR P"]
+  }
+}

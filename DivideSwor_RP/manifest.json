@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Divide Sword",
+    "description": "ผลงาน MY P",
+    "uuid": "0c7ff215-3b49-495b-bce2-18d00596559d",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 21, 60]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "a8f7937f-7139-4931-aeeb-69169a847448",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "182d8f24-e111-4024-bdda-2c996ef9f92d",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": [ "MR P"]
+  }
+}
